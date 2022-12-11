@@ -1,6 +1,4 @@
-import React from 'react';
 import rr from '../assets/rr.jpeg';
-import classNames from "classnames";
 import './style.css';
 
 type PropsType = {
@@ -10,9 +8,9 @@ type PropsType = {
 const ProfilePhoto = ( {type} : PropsType ) => {
     let imageStyle = '';
     if (type === 'large') {
-        imageStyle = classNames('w-[500px]', 'h-[500px]');
+        imageStyle = "w-[700px] h-[700px]";
     } else if (type === 'medium') {
-        imageStyle = classNames('w-[300px]', 'h-[300px]');
+        imageStyle = "w-[500px] h-[500px]"
     }
     return (
         <div>

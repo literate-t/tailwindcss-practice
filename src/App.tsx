@@ -5,7 +5,7 @@ import ProfilePhoto from "./components/ProfilePhoto";
 function App() {
   return (
     <div className="App">
-      <ProfilePhoto type="lage"/>
+      <ProfilePhoto type="medium"/>
     </div>
   );
 }
